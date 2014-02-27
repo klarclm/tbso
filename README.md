@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Sonata Standard Edition
 =======================
 
@@ -70,3 +71,7 @@ To run the Sonata test suites, you can run the command:
     bin/qa_client_ci.sh
 
 Enjoy!
+=======
+tbso
+====
+>>>>>>> fc9d755c2c36c0dcf4882bcbf3add15d3afe35ad

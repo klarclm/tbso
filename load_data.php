@@ -67,7 +67,7 @@ $success = execute_commands(array(
 
     './app/console cache:warmup --env=prod --no-debug',
     './app/console cache:create-cache-class --env=prod --no-debug',
-    './app/console doctrine:database:drop --force',
+	'./app/console doctrine:database:drop --force',
     './app/console doctrine:database:create',
     './app/console doctrine:schema:update --force',
     'php -d memory_limit=1024M ./app/console doctrine:fixtures:load --verbose --env=dev',
